@@ -15,12 +15,12 @@ function right(){
     if(count>pictures.length-1){
         count=0;
     }
-    imageEl.style.background = `url("imgs/${pictures[count]}.png")`;
+    imageEl.style.background = `url("img/${pictures[count]}.png")`;
 }
 function left(){
     count--;
     if(count<0){
         count = pictures.length-1;
     }
-    imageEl.style.background = `url("imgs/${pictures[count]}.png")`;
+    imageEl.style.background = `url("img/${pictures[count]}.png")`;
 }
